@@ -7,5 +7,5 @@ export const CurrentDayOfTheWeek = () => {
     weekday: 'long',
   });
 
-  return <div>{t('current_day_of_the_week', { dayOfTheWeek })}</div>;
+  return <div>{t('today_is', { dayOfTheWeek })}</div>;
 };

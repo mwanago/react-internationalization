@@ -6,13 +6,13 @@ const resources = {
   en: {
     translation: {
       greeting: 'Hello',
-      current_day_of_the_week: 'Today is {{dayOfTheWeek}}.',
+      today_is: 'Today is {{dayOfTheWeek}}.',
     },
   },
   pl: {
     translation: {
       greeting: 'Cześć',
-      current_day_of_the_week: 'Dziś jest {{dayOfTheWeek}}.',
+      today_is: 'Dziś jest {{dayOfTheWeek}}.',
     },
   },
 };
