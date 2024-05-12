@@ -1,11 +1,11 @@
-import { Greeting } from './Greeting';
 import { LanguageSwitch } from './LanguageSwitch';
+import { CurrentDayOfTheWeek } from './CurrentDayOfTheWeek';
 
 function App() {
   return (
     <div>
       <LanguageSwitch />
-      <Greeting />
+      <CurrentDayOfTheWeek />
     </div>
   );
 }

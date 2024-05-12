@@ -1,5 +1,11 @@
-export const CurrentDayOfTheWeek = () => {
-  const day = new Date().toLocaleString('en', { weekday: 'long' });
+import { useTranslation } from 'react-i18next';
 
-  return <div>Today is {day}.</div>;
+export const CurrentDayOfTheWeek = () => {
+  const { t, i18n } = useTranslation();
+
+  const dayOfTheWeek = new Date().toLocaleString(i18n.language, {
+    weekday: 'long',
+  });
+
+  return <div>{t('current_day_of_the_week', { dayOfTheWeek })}</div>;
 };
