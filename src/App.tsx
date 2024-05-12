@@ -1,7 +1,7 @@
-import { CurrentDayOfTheWeek } from './CurrentDayOfTheWeek';
+import { Greeting } from './Greeting';
 
 function App() {
-  return <CurrentDayOfTheWeek />;
+  return <Greeting />;
 }
 
 export default App;
